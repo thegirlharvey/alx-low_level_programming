@@ -2,5 +2,9 @@
 
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
+	char Str[] = "\"Programming is like building a multilingual puzzle\n";
+
+	puts(str);
+
+	return (0);
 }
