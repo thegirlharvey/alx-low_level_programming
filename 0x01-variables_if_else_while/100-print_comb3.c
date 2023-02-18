@@ -16,7 +16,7 @@ int main(void)
 		putchar((b % 10) + '0');
 		if (a == 8 && b == 9)
 			continue;
-		while (b < 10)
+		if (b < 10)
 		{
 			putchar(',');
 			putchar(' ');
