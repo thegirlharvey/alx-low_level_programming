@@ -8,13 +8,20 @@
 int main(void)
 {
 	int a, b;
+	{
+		for (a = 0; a < 10; a++)
+		for (b = 0; b < 10; b++)
+		{
+			putchar((a % 10) + '0');
+			putchar((b % 10) + '0');
 
-	for (a = 0; a < 10; a++)
-	for (b = a + 1; b < 10; b++)
-	putchar(a + '0');
-	putchar(b + '0');
-		putchar(',');
-		putchar(' ');
+			if (a == 9 && b == 9)
+
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
 	putchar('\n');
 	return (0);
 }
