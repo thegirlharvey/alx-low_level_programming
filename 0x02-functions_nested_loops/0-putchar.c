@@ -7,9 +7,8 @@
  */
 int main(void)
 {
-	int p;
 
-	p = write(1, "_putchar\n", 9);
+	write(1, "_putchar\n", 9);
 
 	return (0);
 }
